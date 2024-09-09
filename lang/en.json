@@ -1,0 +1,12 @@
+{
+  "NoPermission": "You don't have permission to use this command!",
+  "BanReasonRequired": "A valid reason must be provided for banning. Example: css_ctsessionban <PlayerName> 'REASON'",
+  "SuccessfulBan": "Player '{0}' has been successfully banned.",
+  "PlayerBannedMessage": "You have been banned from {blue}CT{default} by admin {red}{0}{default} for reason: {gold}{1}{default}.",
+  "AlreadyBanned": "This player is already banned.",
+  "PlayerNotFound": "The player {0} was not found. Please check the SteamID or player name.",
+  "NotBanned": "The player with SteamID '{0}' is not banned.",
+  "UnbanSuccess": "Player {0} has been successfully unbanned.",
+  "SuccessfulBanDB": "Player has been successfully banned.",
+  "PlayerNotFoundDB": "The player was not found. Please check the SteamID or player name."
+}
