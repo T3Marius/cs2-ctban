@@ -38,22 +38,32 @@
 
 `Usage: /ctsessionban <PLAYERNAME> <REASON>`
 
-| Command      | Permission   |
-| ------------ | ------------ |
-| `css_ctban`    | @css/ban     |
-| `css_unctban`    | @css/ban     |
 #Config
 
-```JSON
+```JS
 {
-  "Prefix": " \u0001[\u0004MadGames.eu\u0001]",
-  "permission": "@css/reservation",
-  "DBDatabase": "database",
-  "DBUser": "user",
-  "DBPassword": "password",
-  "DBHost": "localhost",
-  "DBPort": 3306,
-  "ConfigVersion": 1
+# Tag configuration
+[Tag]
+Tag = "{darkblue}[CTBan]{default} "
+
+# Permissions configuration
+[Permissions]
+FLAGS = ["@css/generic"]
+
+# Commands configuration
+[Commands]
+CtSessionBan = ["ctsessionban"]
+CTBan = ["ctban"]
+UnCTBan = ["unctban"]
+
+# Database configuration
+[Database]
+DBName = ""
+DBUser = ""
+DBPassword = ""
+DBHost = ""
+DBPort = 3306
+
 }
 ```
 
